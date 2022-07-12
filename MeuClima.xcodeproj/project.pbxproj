@@ -11,6 +11,15 @@
 		12265E1D2858D39A00A72460 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12265E1C2858D39A00A72460 /* ContentView.swift */; };
 		12265E1F2858D39C00A72460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12265E1E2858D39C00A72460 /* Assets.xcassets */; };
 		12265E222858D39C00A72460 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12265E212858D39C00A72460 /* Preview Assets.xcassets */; };
+		12265E2A2858DEA700A72460 /* GerenciadorLocalizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12265E292858DEA700A72460 /* GerenciadorLocalizacao.swift */; };
+		12265E2F28590DF100A72460 /* BemVindoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12265E2E28590DF100A72460 /* BemVindoView.swift */; };
+		12265E3128591A1E00A72460 /* CarregamentoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12265E3028591A1E00A72460 /* CarregamentoView.swift */; };
+		12265E33285921D900A72460 /* GerenciadorClima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12265E32285921D900A72460 /* GerenciadorClima.swift */; };
+		12265E35285933F700A72460 /* ClimaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12265E34285933F700A72460 /* ClimaView.swift */; };
+		122EF892285BC3890074474E /* LinhaClimaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122EF891285BC3890074474E /* LinhaClimaView.swift */; };
+		124347D5285A172100247366 /* DadosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124347D4285A172100247366 /* DadosModel.swift */; };
+		124347D7285A1B7200247366 /* DadosClima.json in Resources */ = {isa = PBXBuildFile; fileRef = 124347D6285A1B7200247366 /* DadosClima.json */; };
+		124347D9285A1E6800247366 /* Extencoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124347D8285A1E6800247366 /* Extencoes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		12265E1C2858D39A00A72460 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12265E1E2858D39C00A72460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12265E212858D39C00A72460 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12265E292858DEA700A72460 /* GerenciadorLocalizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciadorLocalizacao.swift; sourceTree = "<group>"; };
+		12265E2E28590DF100A72460 /* BemVindoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoView.swift; sourceTree = "<group>"; };
+		12265E3028591A1E00A72460 /* CarregamentoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarregamentoView.swift; sourceTree = "<group>"; };
+		12265E32285921D900A72460 /* GerenciadorClima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciadorClima.swift; sourceTree = "<group>"; };
+		12265E34285933F700A72460 /* ClimaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaView.swift; sourceTree = "<group>"; };
+		122EF891285BC3890074474E /* LinhaClimaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinhaClimaView.swift; sourceTree = "<group>"; };
+		124347D4285A172100247366 /* DadosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosModel.swift; sourceTree = "<group>"; };
+		124347D6285A1B7200247366 /* DadosClima.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DadosClima.json; sourceTree = "<group>"; };
+		124347D8285A1E6800247366 /* Extencoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extencoes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				12265E1A2858D39A00A72460 /* MeuClimaApp.swift */,
-				12265E1C2858D39A00A72460 /* ContentView.swift */,
+				122EF890285BBFE30074474E /* Componentes */,
+				12265E2B28590BF400A72460 /* View */,
+				12265E282858DD8E00A72460 /* Gerenciadores */,
 				12265E1E2858D39C00A72460 /* Assets.xcassets */,
+				124347D8285A1E6800247366 /* Extencoes.swift */,
 				12265E202858D39C00A72460 /* Preview Content */,
 			);
 			path = MeuClima;
@@ -63,8 +84,38 @@
 			isa = PBXGroup;
 			children = (
 				12265E212858D39C00A72460 /* Preview Assets.xcassets */,
+				124347D4285A172100247366 /* DadosModel.swift */,
+				124347D6285A1B7200247366 /* DadosClima.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12265E282858DD8E00A72460 /* Gerenciadores */ = {
+			isa = PBXGroup;
+			children = (
+				12265E292858DEA700A72460 /* GerenciadorLocalizacao.swift */,
+				12265E32285921D900A72460 /* GerenciadorClima.swift */,
+			);
+			path = Gerenciadores;
+			sourceTree = "<group>";
+		};
+		12265E2B28590BF400A72460 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12265E1C2858D39A00A72460 /* ContentView.swift */,
+				12265E2E28590DF100A72460 /* BemVindoView.swift */,
+				12265E3028591A1E00A72460 /* CarregamentoView.swift */,
+				12265E34285933F700A72460 /* ClimaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		122EF890285BBFE30074474E /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				122EF891285BC3890074474E /* LinhaClimaView.swift */,
+			);
+			path = Componentes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12265E222858D39C00A72460 /* Preview Assets.xcassets in Resources */,
+				124347D7285A1B7200247366 /* DadosClima.json in Resources */,
 				12265E1F2858D39C00A72460 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12265E35285933F700A72460 /* ClimaView.swift in Sources */,
+				12265E2F28590DF100A72460 /* BemVindoView.swift in Sources */,
+				12265E2A2858DEA700A72460 /* GerenciadorLocalizacao.swift in Sources */,
+				12265E33285921D900A72460 /* GerenciadorClima.swift in Sources */,
+				122EF892285BC3890074474E /* LinhaClimaView.swift in Sources */,
 				12265E1D2858D39A00A72460 /* ContentView.swift in Sources */,
 				12265E1B2858D39A00A72460 /* MeuClimaApp.swift in Sources */,
+				12265E3128591A1E00A72460 /* CarregamentoView.swift in Sources */,
+				124347D9285A1E6800247366 /* Extencoes.swift in Sources */,
+				124347D5285A172100247366 /* DadosModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

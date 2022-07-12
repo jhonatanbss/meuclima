@@ -1,6 +1,6 @@
 //
 //  MeuClimaApp.swift
-//  MeuClima
+//  MeuClima.
 //
 //  Created by Jhonatan Bruno Santos Silva on 14/06/22.
 //
